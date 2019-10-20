@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
-        android:text="Hello World!" />
+        android:text="Hello Friend!" />
 
     <Button
         android:id="@+id/roll_button"

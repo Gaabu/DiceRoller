@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         val showResult : TextView = findViewById(R.id.result_text)
         val showResult2: TextView = findViewById(R.id.show_result)
 
-        val result1 = "Hello World!"
+        val result1 = "Hello Friend!"
         val num1 = 1
         val parseInt = Integer.parseInt(showResult.text.toString()) + 1
 
