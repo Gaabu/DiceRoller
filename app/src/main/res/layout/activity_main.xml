@@ -9,14 +9,29 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity" >
 
-
-
-    <ImageView
-        android:id="@+id/dice_image"
+    <TextView
+        android:id="@+id/result_text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/dice_1" />
+        android:textSize="30sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/result_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="Hello Friend!" />
 
     <Button
         android:id="@+id/roll_button"
@@ -25,6 +40,19 @@
         android:layout_gravity="center_horizontal"
         android:text="Roll" />
 
+    <Button
+        android:id="@+id/roll_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Count up" />
 
+    <TextView
+        android:id="@+id/show_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="" />
 
 </LinearLayout>
